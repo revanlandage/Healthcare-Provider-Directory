@@ -1,0 +1,15 @@
+[package]
+name = "Healthcare-Provider-Directory"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0xe44d874fa127985b334f4e7d76f0c9b0e61a8010be2d77e5a3ce385b21e6e664"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
